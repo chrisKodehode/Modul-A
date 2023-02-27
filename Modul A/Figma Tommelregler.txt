@@ -1,0 +1,17 @@
+Regler:
+1: 4 gangen på text størrelser
+2: 16 i text størrelse er 100% innafor
+3: bruk altid "Frames" tool for design og bruk "Rectangle osv for grafisk design aka logo"
+4: Navngi som du ville på kode feks "navbar, div, osv"
+5: Helst "Fill" på bilder
+6: Overlay på bilder hvis man skal ha synlig text
+
+Tips:
+1: "K" for skalering i figma
+2: Auto layout
+3: https://cantunsee.space
+
+Plugins:
+1: Unsplash
+2: Remove background
+3: Vectory 3D Element
