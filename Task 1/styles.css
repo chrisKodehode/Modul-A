@@ -1,0 +1,102 @@
+h1{
+    font-family: 'Golos Text', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+body{
+    background-image: url(pictures/matrix.gif); background-repeat: repeat;
+}
+
+.p1{
+    font-family: 'Golos Text', sans-serif;
+    margin-block: 50px; 
+    color: white;
+    font-size: larger;
+    padding-left: 0px;
+    border-style: double;
+    border-width: 10px;
+    display: inline-block; /*Make all the text fit the border*/
+}
+
+.fun_facts{
+    font-family: 'Golos Text', sans-serif;
+    color: white;
+    font-size: large;
+    border-style: double;
+    border-width: 10px;
+    display: inline-block; /*Make all the text fit the border*/
+}
+
+.listed_facts{
+    font-family: 'Golos Text', sans-serif;
+    color: red;
+    font-size: large;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.my_games{
+    font-family: 'Golos Text', sans-serif;
+    margin-block: 50px; 
+    color: white;
+    font-size: medium;
+    padding-left: px;
+    border-style: double;
+    border-width: 10px;
+    float: right;
+}
+
+.game1{
+    font-family: 'Golos Text', sans-serif;
+    color: red;
+    font-size: larger;
+}
+
+.game2{
+    font-family: 'Golos Text', sans-serif;
+    color: red;
+    font-size: larger; 
+}
+
+.artist{
+    font-family: 'Golos Text', sans-serif;
+    position: absolute;
+    top: 170px;
+    left: 420px;
+    margin: 11.5cm;
+    margin-top: 0px;
+    color: white;
+    font-size: xx-large;
+}
+
+.artist_pics{
+    position: absolute;
+    top: 300px;
+    left: 380px;
+    margin: 11.5cm;
+    margin-top: 0px;
+}
+
+.martingarrix{
+    font-family: 'Golos Text', sans-serif;
+    color: red;
+    position: absolute;
+    bottom: 335px;
+    font-size: x-large;
+    left: 80px;
+}
+
+.spotifylink{
+    font-family: 'Golos Text', sans-serif;
+    color: red;
+    position: absolute;
+    left: 935px;
+    top: 655px;
+    font-size: x-large;
+}
+
+.spotifytext{
+    color: white;
+}
