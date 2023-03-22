@@ -14,16 +14,26 @@
     font-size: large;
 }
 
+.font-x-large{
+  font-size: x-large;
+}
+
+.large-first-letter::first-letter {
+  font-size: xx-large;
+}
+
+.block-display{
+  display: block;
+}
+
 /* Pulse Grow */
 @-webkit-keyframes hvr-pulse-grow {
     to {
-      -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
   }
   @keyframes hvr-pulse-grow {
     to {
-      -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
   }
@@ -31,30 +41,18 @@
   .hvr-pulse-grow {
     display: inline-block;
     vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
   .hvr-pulse-grow{
-    -webkit-animation-name: hvr-pulse-grow;
     animation-name: hvr-pulse-grow;
-    -webkit-animation-duration: 0.35s;
     animation-duration: 0.35s;
-    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
     animation-direction: alternate;
   }
 
-/*Add space between Name and Email text*/
-.name-text, .email-text{
-    margin-top: 20px;
-}
-
 .main-head{
-    /* text-align: center; */
     display: flex;
     justify-content: center;
     
@@ -63,18 +61,20 @@
 }
 
 .survey-form{
-    min-height: 1500px;
+    min-height: 1600px;
     width: 650px;
+
+    display: block;
     
     background: transparent;
 
-    margin: 0px auto 0px auto; /*TOP->RIGHT->BOTTOM->LEFT*/
+    margin: 0px auto 0px auto;
 }
 
 .name-text{
     display: block;
-    font-size: x-large;
 
+    margin-top: 20px;
     margin-left: 20px;
 
     padding-top: 20px;
@@ -91,8 +91,8 @@
 
 .email-text{
     display: block;
-    font-size: x-large;
 
+    margin-top: 20px;
     margin-left: 20px;
 
     padding-top: 10px;
@@ -109,8 +109,8 @@
 
 .age-text{
     display: block;
-    font-size: x-large;
 
+    margin-top: 20px;
     margin-left: 20px;
 
     padding-top: 10px;
@@ -127,8 +127,8 @@
 
 .dropdown-text{
     display: block;
-    font-size: x-large;
 
+    margin-top: 20px;
     margin-left: 20px;
 
     padding-top: 10px;
@@ -144,7 +144,7 @@
 }
 
 .radio{
-    margin: 30px 26px 0px 20px;
+    margin: 35px 26px 0px 20px;
 
     border: 2px solid black;
 
@@ -153,7 +153,6 @@
 
 .radio-question{
     display: block;
-    font-size: x-large;
 
     margin-left: 20px;
 
@@ -184,57 +183,50 @@
     margin: 10px 0px 0px 0px;
 }
 
-.checkbox-title{
-    display: block;
-    font-size: x-large;
-}
-
 .checkbox-items{
-    margin: 10px 26px 0px 20px;
+    margin: 35px 26px 0px 20px;
 
     border: 2px solid black;
 
-    padding: 1em 20em 1em 1em;
+    padding: 0.5em 1em 0.2em 1em;
 }
 
-/* Ultra HD */
-@media (max-width: 3840px) {
-    body {
-      background: transparent;
-    }
-  }
+.coding-languages{
+  padding: 0.5em 0em 0.5em 0em;
+}
 
-  /* Full HD */
-  @media (max-width: 2560px) {
-    body {
-      background: transparent;
-    }
-  }
+.feedback{
+  margin: 35px 26px 0px 20px;
 
-  /* Laptop L*/
-  @media (max-width: 1440px) {
-    body {
-      background: transparent;
-    }
-  }
+  border: 2px solid black;
 
-  /* Laptop */
-  @media (max-width: 1024px) {
-    body {
-      background: transparent;
-    }
-  }
+  padding: 15px 20px 20px 20px;
+}
 
-  /* Tablet */
-  @media (max-width: 768px) {
-    body {
-      background: transparent;
-    }
-  }
-  
-  /* Mobile */
-  @media (max-width: 425px) {
-    body {
-      background: transparent;
-    }
-  }
+.text-box{
+  line-height: normal;
+
+  margin-top: 10px;
+
+  padding: 0px 10px 200px 0px;
+
+  width: 98%;
+}
+
+.submit-btn{
+  display: block;
+
+  margin: 35px auto 0 auto;
+
+  width: 200px;
+  height: 50px;
+
+  border: 2px solid black;
+
+  transition-delay: 0.1s;
+}
+
+.submit-btn:hover{
+  background-color: green;
+  cursor: pointer;
+}

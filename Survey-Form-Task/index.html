@@ -15,19 +15,19 @@
             <div class="survey-form">
                 <form action="/action_page.php" target="_blank">
                     <!--Name Section-->
-                    <label class="name-text font-bold font-courier" for="name">Name</label>
+                    <label class="name-text margin-left font-x-large large-first-letter font-bold font-courier" for="name">Name</label>
                     <input class="name-box font-large font-courier" type="text" id="name" name="name" placeholder="Enter your name">
                     
                     <!--Email Section-->
-                    <label class="email-text font-bold font-courier" for="email">Email</label>
+                    <label class="email-text margin-left font-x-large large-first-letter font-bold font-courier" for="email">Email</label>
                     <input class="email-box font-large font-courier" type="email" name="email" id="email" placeholder="Enter your email">
 
                     <!--Age Section-->
-                    <label class="age-text font-bold" for="age">Age</label>
+                    <label class="age-text margin-left font-x-large large-first-letter font-bold font-courier" for="age">Age</label>
                     <input class="age-box font-large" type="number" name="age" id="age" placeholder="0" min="0" max="100" />
 
                     <!--Dropdown Section-->
-                    <label class="dropdown-text font-bold font-courier" for="dropdown">Which option best describes you?</label>
+                    <label class="dropdown-text margin-left font-x-large large-first-letter font-bold font-courier" for="dropdown">Which option best describes you?</label>
                         <select class="dropdown-menu font-large font-courier" name="description" id="dropdown">
                             <option value="student">Student</option>
                             <option value="intern">Intern</option>
@@ -37,7 +37,7 @@
 
                     <!--Radio Section-->
                     <div class="radio">
-                        <label class="radio-question font-bold font-courier" for="question">Would you recommend this form to a friend?</label>
+                        <label class="radio-question margin-left font-x-large large-first-letter font-bold font-courier" for="question">Would you recommend this form to a friend?</label>
                         
                         <input class="radio-answer-yes" type="radio" name="recommendation" id="yes" value="Yes">
                         <label class="answer-yes font-large font-courier" for="yes">Yes</label> <br>
@@ -50,43 +50,52 @@
                     </div>
 
                     <!--Checkbox Section-->
-                    <div class="checkbox-items font-large font-courier">
-                        <label class="checkbox-title font-bold" for="checkbox">Languages and Frameworks known (check all that apply)</label>
+                    <div class="checkbox-items large-first-letter font-large font-courier">
+                        <label class="checkbox-title font-x-large font-bold" for="checkbox">Languages and Frameworks known (check all that apply)</label>
                         
-                        <input type="checkbox" name="interest" id="checkbox-1" value="C" />
-                        <label for="checkbox-1">C</label> <br>
-
-                        <input type="checkbox" name="interest" id="checkbox-2" value="C++" />
-                        <label for="checkbox-2">C++</label> <br>
-
-                        <input type="checkbox" name="interest" id="checkbox-3" value="C#" />
-                        <label for="checkbox-3">C#</label> <br>
-
-                        <input type="checkbox" name="interest" id="checkbox-4" value="Java" />
-                        <label for="checkbox-4">Java</label> <br>
-
-                        <input type="checkbox" name="interest" id="checkbox-5" value="Python" />
-                        <label for="checkbox-5">Python</label> <br>
-
-                        <input type="checkbox" name="interest" id="checkbox-6" value="Javascript" />
-                        <label for="checkbox-6">Javascript</label> <br>
-
-                        <input type="checkbox" name="interest" id="checkbox-7" value="React" />
-                        <label for="checkbox-7">React</label> <br>
-                        
-                        <input type="checkbox" name="interest" id="checkbox-8" value="Angular" />
-                        <label for="checkbox-8">Angular</label> <br>
-
-                        <input type="checkbox" name="interest" id="checkbox-9" value="Django" />
-                        <label for="checkbox-9">Django</label> <br>
-                        
-                        <input type="checkbox" name="interest" id="checkbox-10" value="Spring" />
-                        <label for="checkbox-10">Spring</label> <br>
+                        <div class="coding-languages">
+                            <input type="checkbox" name="interest" id="checkbox-1" value="C" />
+                            <label for="checkbox-1">C</label> <br>
+    
+                            <input type="checkbox" name="interest" id="checkbox-2" value="C++" />
+                            <label for="checkbox-2">C++</label> <br>
+    
+                            <input type="checkbox" name="interest" id="checkbox-3" value="C#" />
+                            <label for="checkbox-3">C#</label> <br>
+    
+                            <input type="checkbox" name="interest" id="checkbox-4" value="Java" />
+                            <label for="checkbox-4">Java</label> <br>
+    
+                            <input type="checkbox" name="interest" id="checkbox-5" value="Python" />
+                            <label for="checkbox-5">Python</label> <br>
+    
+                            <input type="checkbox" name="interest" id="checkbox-6" value="Javascript" />
+                            <label for="checkbox-6">Javascript</label> <br>
+    
+                            <input type="checkbox" name="interest" id="checkbox-7" value="React" />
+                            <label for="checkbox-7">React</label> <br>
+                            
+                            <input type="checkbox" name="interest" id="checkbox-8" value="Angular" />
+                            <label for="checkbox-8">Angular</label> <br>
+    
+                            <input type="checkbox" name="interest" id="checkbox-9" value="Django" />
+                            <label for="checkbox-9">Django</label> <br>
+                            
+                            <input type="checkbox" name="interest" id="checkbox-10" value="Spring" />
+                            <label for="checkbox-10">Spring</label> <br>
+                        </div>
                     </div>
 
-                </form>
+                    <!--Comments or suggestions Section-->
+                    <div class="feedback large-first-letter font-large font-courier font-bold">
+                        <label class="box-comments font-x-large font" for="text-comments">Any comments or suggestions?</label>
+                        <input class="text-box font-courier font-large" type="text" placeholder="Type here">
+                    </div>
 
+                    <!--Submit Section-->
+                    <input class="submit-btn large-first-letter font-large font-courier font-bold" type="submit">
+
+                </form>
             </div>
-            
-        </body>
+        </body>  
 </html>
