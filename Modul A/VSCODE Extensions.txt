@@ -1,5 +1,0 @@
-1: Live Server Preview
-2: Prettier
-3: Auto Close Tag
-4: Code Runner
-5: Spellchecker
